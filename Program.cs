@@ -15,17 +15,18 @@
             string answer = Console.ReadLine();
             if (answer == "vänster")
             {
-                Console.WriteLine("1000kr");
+                return "1000kr";
             }
             else
             {
-                Console.WriteLine("500kr");
+                return "500kr";
             }
-            return answer;
+            
         }
 
         public static void level2(string level1result)
         {
+
             Console.WriteLine("i nivå 1 fick du: " + level1result);
             Console.ReadKey();
             Console.WriteLine("Programmet utmanar du dig i ''Rulla tärning''");
